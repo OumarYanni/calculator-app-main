@@ -1,8 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- displays site properly based on user's device -->
     <link href="/dist/output.css" rel="stylesheet" />
 
@@ -13,27 +19,52 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Calculator app</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Calculator app | Oumar Yanni</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">test tailwind css</h1>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.linkedin.com/in/oumar-yanni/">Oumar Yanni</a>.
+  <body class="flex h-full content-center items-center justify-center text-3xl">
+    <!-- Div pour la première ligne de la calculette-->
+    <div>
+      <h1 class="text-3xl font-bold underline">Calc</h1>
+      <nav>
+        <div id="button-theme1">Theme</div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </nav>
     </div>
+    <!-- Div pour l'écran de la calculette-->
+    <div></div>
+    <!-- Div pour les 16 touches de numérique + caractères-->
+    <div>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>DEL</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>+</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>.</button>
+      <button>0</button>
+      <button>/</button>
+      <button>x</button>
+
+      <!-- Div pour les deux derniers boutons-->
+      <div>
+        <button>RESET</button>
+        <button>=</button>
+      </div>
+    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/oumar-yanni/">
+        Coded by Oumar Yanni</a
+      >.
+    </footer>
   </body>
 </html>
