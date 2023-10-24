@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: "League Spartan, sans-serif",
+      },
+      fontSize: {
+        "3xl": "2rem",
+      },
+    },
   },
   plugins: [],
 };
