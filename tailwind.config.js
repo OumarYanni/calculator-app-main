@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: "League Spartan, sans-serif",
+        "league-spartan": "League Spartan, sans-serif",
       },
       fontSize: {
         "3xl": "2rem",
