@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-full font-league-spartan">
+<html lang="en" class="font-league-spartan">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,11 +22,11 @@
     <title>Calculator app | Oumar Yanni</title>
   </head>
   <body
-    class="flex flex-col content-center items-center justify-center font-league-spartan text-3xl"
+    class="font-league-spartan bg-theme-1--very-dark-desaturated-blue-color flex flex-col content-center items-center justify-center p-8 text-3xl"
   >
     <!-- Div pour la première ligne de la calculette-->
-    <div class="flex w-1/2 flex-row justify-between">
-      <h1 class="text-3xl font-bold underline">Calc</h1>
+    <div class="flex w-full flex-row justify-between">
+      <h1 class="text-text-white-color text-3xl font-bold">calc</h1>
       <nav class="flex">
         <!-- <div id="button-theme1">Theme</div> -->
         <!-- <ul class="flex list-decimal px-8">
@@ -37,12 +37,14 @@
       </nav>
     </div>
     <!-- Div pour l'écran de la calculette-->
-    <div>
+    <div
+      class="bg-theme-1--very-dark-desaturated-blue-2-color text-text-white-color my-4 flex w-full justify-end rounded-lg p-4"
+    >
       <h2>399,981</h2>
     </div>
     <!-- Div pour les 16 touches de numérique + caractères-->
-    <div>
-      <ul>
+    <div class="w-full">
+      <ul class="grid grid-flow-col grid-rows-5 gap-4">
         <li>
           <button>7</button>
         </li>
