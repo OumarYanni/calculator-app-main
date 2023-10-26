@@ -4,14 +4,14 @@
 
 @layer components {
   .keyboard-li {
-    @apply bg-pearlbush shadow-keyboard h-14 w-14 rounded p-2 text-center;
+    @apply bg-pearl-bush desktop:w-[5.25rem] h-14 w-14 rounded p-2 text-center shadow-keyboard hover:bg-white;
   }
 
-  .keyboard-li--2 {
-    @apply bg-lynch shadow-keyboard2 rounded text-center text-xl text-white;
+  .keyboard-li--secondary {
+    @apply shadow-keyboard--secondary hover:bg-bali-hai rounded bg-lynch text-center text-xl text-white;
   }
 
-  .keyboard-li--3 {
-    @apply bg-persianred shadow-keyboard3 rounded text-center text-white;
+  .keyboard-li--tertiary {
+    @apply bg-persian-red shadow-keyboard--tertiary hover:bg-japonica rounded text-center text-white;
   }
 }

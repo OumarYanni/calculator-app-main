@@ -22,10 +22,10 @@
     <title>Calculator app | Oumar Yanni</title>
   </head>
   <body
-    class="font-league-spartan bg-fiord flex flex-col content-center items-center justify-center p-8 text-3xl"
+    class="flex flex-col items-center justify-center bg-fiord p-8 font-league-spartan text-3xl"
   >
     <!-- Div pour la première ligne de la calculette-->
-    <div class="flex w-full flex-row justify-between">
+    <div class="desktop:w-1/4 flex w-full flex-row justify-between">
       <h1 class="text-3xl font-bold text-white">calc</h1>
       <nav class="flex">
         <!-- <div id="button-theme1">Theme</div> -->
@@ -38,15 +38,15 @@
     </div>
     <!-- Div pour l'écran de la calculette-->
     <div
-      class="bg-ebonyclay my-4 flex w-full justify-end rounded-lg p-4 text-white"
+      class="bg-ebony-clay desktop:w-1/4 my-4 flex w-full justify-end rounded-lg p-4 text-white"
     >
       <h2>399,981</h2>
     </div>
     <!-- Div pour les 16 touches de numérique + caractères-->
     <div
-      class="bg-ebonyclay text-shark flex w-full justify-center rounded-lg p-4"
+      class="bg-ebony-clay desktop:w-1/4 flex w-full justify-center rounded-lg p-4 text-shark"
     >
-      <ul class="grid grid-cols-4 gap-4">
+      <ul class="desktop:w-[95%] grid grid-cols-4 gap-4">
         <li class="keyboard-li">
           <button>7</button>
         </li>
@@ -56,7 +56,7 @@
         <li class="keyboard-li">
           <button>9</button>
         </li>
-        <li class="keyboard-li--2 h-14 w-14">
+        <li class="keyboard-li--secondary desktop:w-[5.25rem] h-14 w-14">
           <button class="h-inherit">DEL</button>
         </li>
         <li class="keyboard-li">
@@ -95,10 +95,10 @@
         <li class="keyboard-li">
           <button>x</button>
         </li>
-        <li class="keyboard-li--2 col-span-2 h-14">
+        <li class="keyboard-li--secondary desktop:w-48 col-span-2 h-14">
           <button class="h-inherit">RESET</button>
         </li>
-        <li class="keyboard-li--3 col-span-2 h-14">
+        <li class="keyboard-li--tertiary desktop:w-48 col-span-2 h-14">
           <button class="h-inherit">=</button>
         </li>
       </ul>

@@ -27,6 +27,9 @@ const NAPA = "#b4a597";
 const ZORBA = "#a69d91";
 const SEANCE = "#871c9c";
 
+const BALIHAI = "#8d97b4";
+const JAPONICA = "#dd7569";
+
 const RIVERBED = "#444b5a";
 const BRIGHTSUN = "#ffe53d";
 const SHARK = "#1b2428";
@@ -46,43 +49,51 @@ module.exports = {
         fiord: FIORD,
         mercury: MERCURY,
         violet: VIOLET,
-        ebonyclay: EBONYCLAY,
-        swisscoffee: SWISSCOFFEE,
+        "ebony-clay": EBONYCLAY,
+        "swiss-coffee": SWISSCOFFEE,
         violet2: VIOLET2,
         mirage: MIRAGE,
         gallery: GALLERY,
         lynch: LYNCH,
         paradiso: PARADISO,
         windsor: WINDSOR,
-        eastbay: EASTBAY,
+        "east-bay": EASTBAY,
         blumine: BLUMINE,
-        electricviolet: ELECTRICVIOLET,
-        persianred: PERSIANRED,
-        burntorange: BURNTORANGE,
-        robinseggblue: ROBINSEGGBLUE,
-        oldbrick: OLDBRICK,
+        "electric-violet": ELECTRICVIOLET,
+        "persian-red": PERSIANRED,
+        "burnt-orange": BURNTORANGE,
+        "robins-egg-blue": ROBINSEGGBLUE,
+        "old-brick": OLDBRICK,
         perutan: PERUTAN,
         aquamarine: AQUAMARINE,
-        pearlbush: PEARLBUSH,
+        "pearl-bush": PEARLBUSH,
         westar: WESTAR,
         grape: GRAPE,
         napa: NAPA,
         zorba: ZORBA,
         seance: SEANCE,
+
+        "bali-hai": BALIHAI,
+        japonica: JAPONICA,
+
+        white: WHITE,
       },
       colors: {
-        riverbed: RIVERBED,
-        brightsun: BRIGHTSUN,
+        "river-bed": RIVERBED,
+        "bright-sun": BRIGHTSUN,
         shark: SHARK,
         white: WHITE,
       },
       boxShadow: {
         keyboard: "0 0.3rem #b4a597",
-        keyboard2: "0 0.3rem #404e72",
-        keyboard3: "0 0.3rem #93261a",
+        "keyboard--secondary": "0 0.3rem #404e72",
+        "keyboard--tertiary": "0 0.3rem #93261a",
       },
       height: {
         inherit: "inherit",
+      },
+      screens: {
+        desktop: "1440px",
       },
     },
   },
