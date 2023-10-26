@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .keyboard-li {
+    @apply bg-pearlbush shadow-keyboard h-14 w-14 rounded p-2 text-center;
+  }
+
+  .keyboard-li--2 {
+    @apply bg-lynch shadow-keyboard2 rounded text-center text-xl text-white;
+  }
+
+  .keyboard-li--3 {
+    @apply bg-persianred shadow-keyboard3 rounded text-center text-white;
+  }
+}

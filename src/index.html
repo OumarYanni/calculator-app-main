@@ -22,11 +22,11 @@
     <title>Calculator app | Oumar Yanni</title>
   </head>
   <body
-    class="font-league-spartan bg-theme-1--very-dark-desaturated-blue-color flex flex-col content-center items-center justify-center p-8 text-3xl"
+    class="font-league-spartan bg-fiord flex flex-col content-center items-center justify-center p-8 text-3xl"
   >
     <!-- Div pour la première ligne de la calculette-->
     <div class="flex w-full flex-row justify-between">
-      <h1 class="text-text-white-color text-3xl font-bold">calc</h1>
+      <h1 class="text-3xl font-bold text-white">calc</h1>
       <nav class="flex">
         <!-- <div id="button-theme1">Theme</div> -->
         <!-- <ul class="flex list-decimal px-8">
@@ -38,75 +38,77 @@
     </div>
     <!-- Div pour l'écran de la calculette-->
     <div
-      class="bg-theme-1--very-dark-desaturated-blue-2-color text-text-white-color my-4 flex w-full justify-end rounded-lg p-4"
+      class="bg-ebonyclay my-4 flex w-full justify-end rounded-lg p-4 text-white"
     >
       <h2>399,981</h2>
     </div>
     <!-- Div pour les 16 touches de numérique + caractères-->
-    <div class="w-full">
-      <ul class="grid grid-flow-col grid-rows-5 gap-4">
-        <li>
+    <div
+      class="bg-ebonyclay text-shark flex w-full justify-center rounded-lg p-4"
+    >
+      <ul class="grid grid-cols-4 gap-4">
+        <li class="keyboard-li">
           <button>7</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>8</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>9</button>
         </li>
-        <li>
-          <button>DEL</button>
+        <li class="keyboard-li--2 h-14 w-14">
+          <button class="h-inherit">DEL</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>4</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>5</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>6</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>+</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>1</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>2</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>3</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>-</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>.</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>0</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>/</button>
         </li>
-        <li>
+        <li class="keyboard-li">
           <button>x</button>
         </li>
-        <li>
-          <button>RESET</button>
+        <li class="keyboard-li--2 col-span-2 h-14">
+          <button class="h-inherit">RESET</button>
         </li>
-        <li>
-          <button>=</button>
+        <li class="keyboard-li--3 col-span-2 h-14">
+          <button class="h-inherit">=</button>
         </li>
       </ul>
 
       <!-- Div pour les deux derniers boutons-->
     </div>
-    <footer>
+    <footer class="mt-8 text-white">
       <a href="https://www.linkedin.com/in/oumar-yanni/">
-        Coded by Oumar Yanni</a
-      >.
+        Passionate Coding by Oumar Yanni.</a
+      >
     </footer>
   </body>
 </html>
