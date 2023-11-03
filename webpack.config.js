@@ -6,7 +6,7 @@ const portfinder = require("portfinder");
 
 const config = {
   entry: {
-    main: path.join(__dirname, "src/index.js"),
+    main: path.join(__dirname, "src/index.ts"),
     /*form: path.join(__dirname, "src/form/form.js"),
     topbar: path.join(__dirname, "src/assets/javascripts/topbar.js"),*/
   },
